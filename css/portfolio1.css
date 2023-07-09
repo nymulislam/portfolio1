@@ -1,0 +1,43 @@
+/* common style */
+
+*{
+    font-family: 'Open Sans', sans-serif;
+}
+
+.primary-text{
+    color: #FD6E0A;
+}
+
+.primary-btn{
+    background-color: #FD6E0A;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 15px 35px;
+}
+
+/* nav section style */
+
+.site-logo{
+    color: #181818;
+    font-size: 45px;
+    font-weight: 800;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav > ul{
+    display: flex;
+    align-items: center;
+    list-style: none;
+}
+
+nav li{
+    margin-right: 50px;
+}
+
+
