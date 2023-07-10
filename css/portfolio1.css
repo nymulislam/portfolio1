@@ -1,7 +1,9 @@
 /* common style */
 
-*{
+body{
     font-family: 'Open Sans', sans-serif;
+    margin: 0%;
+    padding: 0%;
 }
 
 .primary-text{
@@ -11,10 +13,12 @@
 .primary-btn{
     background-color: #FD6E0A;
     color: #fff;
-    border: none;
+    border: 0;
     border-radius: 5px;
     padding: 15px 35px;
     cursor: pointer;
+    font-size: 20px;
+    font-weight: 700px;
 }
 
 /* nav section style */
@@ -25,10 +29,19 @@
     font-weight: 800;
 }
 
+.header-bg{
+    background-color: #fff8f3;
+    background-image: url('../images/header_bg.png');
+    background-repeat: no-repeat;
+    background-size: 700px 430px;
+    background-position: bottom right;
+}
+
 nav{
     display: flex;
     align-items: center;
     justify-content: space-between;
+    margin: 0 150px;
 }
 
 nav > ul{
@@ -46,4 +59,53 @@ li a{
     color: #474747;
 }
 
+/* Banner Section Style */
 
+.banner{
+    padding: 0px 0px 0px 150px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.banner-content{
+    max-width: 500px;
+}
+
+.banner-greetings{
+    color:#474747;
+    font-size: 40px;
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+
+.banner-header{
+    color: #181818;
+    font-size: 70px;
+    font-weight: 700;
+    margin-top: 0px;
+    margin-bottom: 20px;
+}
+
+.banner-description{
+    color:#757575;
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+.profile-img{
+    width: 484px;
+    padding-right: 20px;
+}
+
+#contact-btn{
+    margin-left: 30px;
+    border-radius: 5px;
+    padding: 12px 35px;
+    cursor: pointer;
+    color: #FD6E0A;
+    background-color: #FFF8F3;
+    font-size: 20px;
+    font-weight: 700px;
+    border-color: #FD6E0A;
+}
