@@ -30,10 +30,10 @@ body{
 }
 
 .header-bg{
-    background-color: #fff8f3;
+    background-color: #FFF8F3;
     background-image: url('../images/header_bg.png');
     background-repeat: no-repeat;
-    background-size: 700px 430px;
+    background-size: 700px;
     background-position: bottom right;
 }
 
@@ -94,10 +94,9 @@ li a{
 }
 
 .profile-img{
-    width: 484px;
-    padding-right: 20px;
+    width: 550px;
+    margin-right: -6px;
 }
-
 #contact-btn{
     margin-left: 30px;
     border-radius: 5px;
